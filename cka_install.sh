@@ -23,7 +23,7 @@ echo "deb [signed-by=/usr/share/keyrings/kubernetes-archive-keyring.gpg] https:/
 echo -e "\e[96m------- update and install kubelet kubeadm kubectl ------- "
 tput init
 sudo apt-get update
-sudo apt-get install -y kubelet=1.23.6-00 kubeadm=1.23.6-00 kubectl=1.23.6-00
+sudo apt-get install -y kubelet=1.25.6-00 kubeadm=1.25.6-00 kubectl=1.25.6-00
 
 echo -e "\e[96m------- hold kubelet kubeadm kubectl version ------- "
 tput init
