@@ -10,6 +10,6 @@ kubectl apply -f https://raw.githubusercontent.com/projectcalico/calico/v3.25.0/
 vim /etc/containerd/config.toml 
 
 [plugins."io.containerd.grpc.v1.cri".containerd.runtimes.runc.options]
-dotorh
+...
    SystemdCgroup = true
-bolgono
+...
